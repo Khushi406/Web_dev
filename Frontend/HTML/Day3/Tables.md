@@ -13,10 +13,10 @@
     </table>`
 
  Tag	  Purpose
-1. <table>	Starts the table
-2. <tr>	Table row
-3. <th>	Table header cell (bold & centered)
-4. <td>	Table data cell
+1. `<table>`	Starts the table
+2. `<tr>`	Table row
+3. `<th>`	Table header cell (bold & centered)
+4. `<td>`	Table data cell
 
 ## Attributes to Know
 * border

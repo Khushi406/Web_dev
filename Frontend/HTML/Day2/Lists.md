@@ -1,14 +1,14 @@
 # Lists in HTML
 
-## Unordered List (<ul>)
+## Unordered List (`<ul>`)
 - Used when the order doesn’t matter (e.g., shopping list, features list).
-  `<ul>
+  ` <ul>
      <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
-   </ul>`
+   </ul> `
 
-## Ordered List (<ol>)
+## Ordered List (`<ol>`)
 - Used when the order does matter (e.g., steps to install software, rankings).
     `<ol>
         <li>Wake up</li>
@@ -37,13 +37,13 @@
     <li>First</li>
     <li>Second</li>
     </ol>`
-* For <ol>: type="1", "A", "a", "I", "i"
-* For <ul>: type="circle", "square", "disc"
+* For `<ol>`: type="1", "A", "a", "I", "i"
+* For `<ul>`: type="circle", "square", "disc"
  Note: type is deprecated in HTML5 for <ul>, so avoid it unless you're styling with CSS.
 
 
  # Quetions :
- 1. What’s the difference between <ul> and <ol>?
+ 1. What’s the difference between `<ul>` and `<ol>`?
  2. What tag is used for list items?
  3. Can lists be nested? How?
  4. How do you change list numbering to alphabets?

@@ -9,17 +9,18 @@ Name, Email,  Message box, Submit button -->
     <title>Contact form</title>
 </head>
 <body>
-    <form action="/submit" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required> 
-        <br>
+    <h2>Contact me:</h2>
+    <form action="/submit" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="username" placeholder="Enter your name" required>
+        <br><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" required>
-        <br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <br>
-        <button type="submit">Send</button>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="msg">Message Box:</label><br>
+        <textarea id="msg" name="msgbox" placeholder="you can enter your msg here" required></textarea><br>
+        <button type="submit">Submit</button>
+
     </form>
 </body>
 </html>
